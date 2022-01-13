@@ -1,5 +1,6 @@
 body{
     font-family: 'Comfortaa', cursive;
+    margin: 0;
 }
 
 /* css of first section of page  */
@@ -7,6 +8,8 @@ body{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;   
 }
 .first-section div{
     padding: 5em;
@@ -17,8 +20,8 @@ body{
 }
 .welcome-div1 button{
     font-size:100%;
-    color: rgb(104, 24, 196);
-    background:linear-gradient(violet,pink);
+    color: white;
+    background:linear-gradient(orange,tomato);
     padding: 1em;
     width: 12rem;
     border-radius: 1.5rem;
@@ -39,7 +42,7 @@ body{
     margin-right: 20px;
 }
 
-/* css of second section of page  */
+/* css of third section of page  */
 
 
 
