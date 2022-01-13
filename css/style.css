@@ -1,3 +1,7 @@
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
 /* css of first section of page  */
 .first-section{
     display: flex;
@@ -9,7 +13,7 @@
 }
 
 .welcome-div1 h1{
-    font-size:3.5rem;
+    font-size:3.2rem;
 }
 .welcome-div1 button{
     font-size:100%;
@@ -25,14 +29,14 @@
 }
 
 .welcome-div2-image img{
-    width: 30em;
+    width: 35em;
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
 }
 
 .unique{
     color: orange;
-    margin-right: 0.5em;
+    margin-right: 20px;
 }
 
 /* css of second section of page  */
