@@ -43,9 +43,42 @@ body{
 }
 
 /* css of third section of page  */
+.experience-section{
+    display: block;
+    justify-content:center;
+background-image: url(/images/exp-bg.png);
+background-repeat: no-repeat;
+background-position-y: center;
+}
 
+.expr-internal-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    margin: 1rem;
+}
+.experience-div{
+    text-align: justify;
+    margin: 0 2em;
+    padding:  0 2em;
+    height: 19rem;
+    width: 30em;
+    box-shadow:0px 0px 20px 1px grey ;
+    border-left: 10px solid orange;
+}
+.experience-div h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.experience-div h3{
+    color:orange ;
+    font-weight:400;
+}
+.experience-div h4{
+   font-weight: 100;
 
-
+}
 /* footer css */
 .footer{
     text-align: center;
