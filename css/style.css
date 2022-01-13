@@ -1,3 +1,45 @@
+/* css of first section of page  */
+.first-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.first-section div{
+    padding: 5em;
+}
+
+.welcome-div1 h1{
+    font-size:3.5rem;
+}
+.welcome-div1 button{
+    font-size:100%;
+    color: rgb(104, 24, 196);
+    background:linear-gradient(violet,pink);
+    padding: 1em;
+    width: 12rem;
+    border-radius: 1.5rem;
+}
+.welcome-div1 h4{
+    text-align:left;
+    font-weight:500;
+}
+
+.welcome-div2-image img{
+    width: 30em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.unique{
+    color: orange;
+    margin-right: 0.5em;
+}
+
+/* css of second section of page  */
+
+
+
+/* footer css */
 .footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
