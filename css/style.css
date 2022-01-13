@@ -50,7 +50,11 @@ background-image: url(/images/exp-bg.png);
 background-repeat: no-repeat;
 background-position-y: center;
 }
-
+.experience{
+    font-size: xx-large ;
+    margin-left: 10%;
+    width: 30%;
+}
 .expr-internal-div{
     display: flex;
     justify-content: space-evenly;
@@ -81,6 +85,7 @@ background-position-y: center;
 }
 /* footer css */
 .footer{
+    margin: 3em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
